@@ -1,0 +1,220 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    /* Fuente global */
+    font-size: 15px;
+    /* Fuente de texto */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ************************** NAVEGACION **********************/
+header{
+    /* background-color: rgb(112, 2, 88); */
+    width: 100%;
+    height: 65px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    /* background-color: aquamarine; */
+   /* eliminar las viñetas */
+    list-style: none;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    
+
+}
+
+nav .nav-right-section a{
+    text-decoration: none;
+    /* padding: 10px; */
+    color: #3c4043;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    
+}
+
+nav .nav-right-section img{
+    margin-right: 20px;
+    width: 25px;
+    border-radius: 50%;
+}
+/* ************************** MAIN **********************/
+
+main{
+    margin-top: none;
+    text-align: center;
+    margin: 0 auto;
+}
+main .main-logo{
+    margin: 0 auto;
+}
+main .main-logo img{
+    width: 300px;
+    height: 180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .main-input{
+    width: 600px;
+    margin: 0 auto;
+    /* agregar margen inferior */
+}
+
+main .main-input-container{
+    width: 650;
+    border: 1px solid #b1b1b1;
+    border-radius: 20px;
+}
+
+main .main-input input{
+    height: 35px;
+    border: none;
+    /* Para que no se vean todos los recuadros */
+    outline: none;
+    width: 500px;
+}
+
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-size: contain;
+    background-position: center;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    width: 25px ;
+    height: 25px;
+    margin-right: 10px;
+}
+
+main .main-input .cam-icon{
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    background-size: contain;
+    background-position: center;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    width: 25px ;
+    height: 25px;
+    margin-right: 10px;
+}
+
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    background-position: center;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    width: 25px ;
+    height: 25px;
+    margin-right: 15px;
+}
+
+/* botones */
+main .main-buttons{
+    width: 550px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    /* Alinear elementos */
+    display: inline;
+}
+
+main .main-buttons button{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 175px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    border-radius: 5px;
+}
+
+main .main-buttons button:hover{
+    color: #202124;
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px 1px rgb(0,0,0.1);
+}
+
+/* ****************************FOOTER********************************* */
+
+footer .footer-google{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-google .mexico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #3c4043;
+    margin-left:  41px;
+    margin-bottom: none;
+}
+
+footer .footer-left{
+    background-color: #f2f2f2;
+    display: flex;
+    padding: none;
+    margin-top: 0px;
+    height: 50px;
+    list-style: none;
+    border: 1px solid #dadce0;
+    width: 100%;
+    border-right: none;
+}
+
+footer .footer-list {
+    display: flex;
+    width: 100%;
+    height: 20px;
+}
+
+footer .footer-left a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3c4043;
+    display: flex;
+    margin-top: 15px;
+}
+
+footer .footer-right{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: flex-end;
+    padding: none;
+    margin-top: 0px;
+    height: 50px;
+    list-style: none;
+    border: 1px solid #dadce0;
+    border-left: none;
+}
+
+footer .footer-right a{
+    margin-right: 45px;
+    text-decoration: none;
+    color: #3c4043;
+    display: flex;
+    margin-top: 15px;
+}
